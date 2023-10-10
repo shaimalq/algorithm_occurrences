@@ -1,0 +1,22 @@
+algorithme occurence
+variables
+	tab n(50):entier
+	        n:entier
+		i:entier
+		x:entier
+debut
+	pour i<--- 0 a 49 pas 1 faire
+			ecrire("l'element",i+1,":")
+			lire(t(i))
+		fin pour
+		ecrire("veuillez saisir la valeur de n")
+		lire(n)	
+		x<--0
+		pour i<--- 0 a 49 pas 1 faire
+			si n=t(i)
+			   x<--x+1
+		  fin si
+		fin pour
+			
+		ecrire("le nombre d'occurrence de",n,dans t est",x)
+fin
